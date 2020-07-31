@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot?v=4.7.0');
+  src: url('fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), 
+       url('fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+       url('fontawesome-webfont.woff?v=4.7.0') format('woff'), 
+       url('fontawesome-webfont.ttf?v=4.7.0') format('truetype'), 
+       url('fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CeraPro-Regular';
+  src: url('CeraPro-Regular.eot');
+  src: url('CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('CeraPro-Regular.svg#CeraPro-Regular') format('svg'),
+       url('CeraPro-Regular.ttf') format('truetype'),
+       url('CeraPro-Regular.woff') format('woff'),
+       url('CeraPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CeraPro-Bold';
+  src: url('CeraPro-Bold.eot');
+  src: url('CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+       url('CeraPro-Bold.svg#CeraPro-Bold') format('svg'),
+       url('CeraPro-Bold.ttf') format('truetype'),
+       url('CeraPro-Bold.woff') format('woff'),
+       url('CeraPro-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CeraPro-Light';
+  src: url('CeraPro-Light.eot');
+  src: url('CeraPro-Light.eot?#iefix') format('embedded-opentype'),
+       url('CeraPro-Light.svg#CeraPro-Light') format('svg'),
+       url('CeraPro-Light.ttf') format('truetype'),
+       url('CeraPro-Light.woff') format('woff'),
+       url('CeraPro-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CeraPro-Medium';
+  src: url('CeraPro-Medium.eot');
+  src: url('CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+       url('CeraPro-Medium.svg#CeraPro-Medium') format('svg'),
+       url('CeraPro-Medium.ttf') format('truetype'),
+       url('CeraPro-Medium.woff') format('woff'),
+       url('CeraPro-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Black';
+  src: url('ProximaNova-Black.eot');
+  src: url('ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+       url('ProximaNova-Black.svg#ProximaNova-Black') format('svg'),
+       url('ProximaNova-Black.ttf') format('truetype'),
+       url('ProximaNova-Black.woff') format('woff'),
+       url('ProximaNova-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('ProximaNova-Regular.eot');
+  src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+       url('ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'),
+       url('ProximaNova-Regular.ttf') format('truetype'),
+       url('ProximaNova-Regular.woff') format('woff'),
+       url('ProximaNova-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CeraPro-Black';
+  src: url('CeraPro-Black.eot');
+  src: url('CeraPro-Black.eot?#iefix') format('embedded-opentype'),
+       url('CeraPro-Black.svg#CeraPro-Black') format('svg'),
+       url('CeraPro-Black.ttf') format('truetype'),
+       url('CeraPro-Black.woff') format('woff'),
+       url('CeraPro-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
