@@ -1,0 +1,42 @@
+.background {
+	position: relative;
+	img {
+		width: 100%;
+	}
+}
+.header {
+	position: absolute;
+	top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    .navigation {
+        .navbar {
+             padding: 0;
+             .navbar-brand {
+                 margin-right: 0;
+                 padding: 0;
+             }
+             .navbar-nav {
+                 .nav-item {
+                    //  padding: 0 16px;
+                     &:first-child {
+                         padding-left: 0;
+                     }
+                     .nav-link {
+                         padding: 0;
+                         color: $white;
+                         font-family: $CeraPROmedium;
+                         font-size: $font-size-base;
+                         line-height: $line-height-base;
+                         padding: 15px;
+                         &:hover {
+                             color: orange;
+                         }
+                     }
+                 }
+             }
+         }
+         
+    }
+}

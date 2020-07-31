@@ -1,0 +1,43 @@
+// Footer
+
+.footer {
+    padding: 55px 0;
+    background-color: $white;
+    .footer-top {
+        padding: 0 0 80px;
+        .f-title {
+            h4 {
+                font-size: 14px;
+                line-height: 14px;
+                font-family: $CeraPROmedium;
+                margin: 0 0 15px;
+            }
+        }
+        ul {
+            li {
+                a {
+                    font-size: 14px;
+                    line-height: 44px;
+                    font-family: $CeraPROlight;
+                    color: $text-color;
+                    &:hover {
+                        color: orange;
+                    }
+                }
+            }
+        }
+    }
+    .footer-bottom {
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            font-family: $CeraPROlight;
+            a {
+                color: $text-color;
+                &:hover {
+                    color: orange;
+                }
+            }
+        }
+    }
+}

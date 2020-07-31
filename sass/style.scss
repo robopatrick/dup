@@ -1,0 +1,516 @@
+
+// You can adjust the bootstrap variabled in this file
+@import "vars";
+
+// Mixins
+@import "mixins";
+
+// Bootstrap components use the same name as Bootstrap
+@import "custom_vars";
+
+// Commen Css
+@import "common";
+
+// header Css
+@import "header";
+
+// content start
+
+// banner start
+.banner-main {
+	position: relative;
+	.banner-content {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		.banner-detail {
+			padding: 150px 0 0;
+			text-align: center;
+			span {
+				color: $scampi;
+				font-size: $font-size-sm;
+				font-family: $CeraPROblack;
+				line-height: 15px;
+				text-transform: uppercase;
+                letter-spacing: 2.4px;
+                display: block;
+			}
+			h1 {
+				font-family: $ProximaNova;
+				font-size: $font-size-h1;
+				line-height: 50px;
+                color: $white;
+                margin: 6px 0 9px;
+			}
+			p {
+				font-family: $CeraPROlight;
+				font-size: $font-size-base;
+				line-height: 25px;
+				color: $white;
+				margin-bottom: 58px;
+			}
+			.work-demo {
+				position: relative;
+				width: 370px;
+				height: 54px;
+				margin: 0 auto;
+				.form-control {
+					@include border-radius(50px);
+					display: inline-block;
+					height: 54px;
+					width: 100%;
+					vertical-align: middle;
+                    border: none;
+                    color: rgba($color: #002642, $alpha: 0.5);
+                    padding: 0 130px 0 45px;
+					font-family: $CeraPRO;
+					font-size: 14px;
+                    line-height: 14px;
+                    filter: drop-shadow(10px 11px 34px rgba(0, 0, 0, 0.2));
+					&:focus {
+						  box-shadow: none;
+                          }
+                        }
+                        input::-webkit-input-placeholder  {
+                             color: rgba($color: #002642, $alpha: 0.5);
+                        }
+                        input::-moz-input-placeholder  {
+                             color: rgba($color: #002642, $alpha: 0.5);
+                        }
+                        input::-ms-input-placeholder  {
+                             color: rgba($color: #002642, $alpha: 0.5);
+                        }
+                        input::-o-input-placeholder  {
+                             color: rgba($color: #002642, $alpha: 0.5);
+                        }
+				.btn {
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					padding: 17px 24px;	
+					color: $white;
+				}
+			}
+		}
+	}
+	.inner-background {
+		position: absolute;
+		bottom: -110px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		z-index: 999999;
+	}
+}
+// banner end
+
+// software-logo start
+.software-logo {
+    
+    .brand-title {
+        padding: 156px 0 0;
+        p {
+            font-family: $CeraPRO;
+            font-size: $font-size-base;
+            line-height: 24px;
+             text-align: center;
+            color: $text-color;
+            opacity: 0.7;
+            margin-bottom: 0;
+        }
+    }
+    .software-logo {
+        padding: 40px 0 0;
+        max-width: 740px;
+        margin: 0 auto;
+
+        ul {
+            align-items: center;
+            justify-content: space-evenly;
+            display: flex;
+           li {
+             display: inline-block;
+           }
+       }
+    }
+}
+// software-logo end
+
+// software-platform start
+.software-platform {
+    padding: 110px 0 0;
+    position: relative;
+    .software-title {
+        h2 {
+            font-size: $font-size-h2;
+            line-height: 56px;
+            color: $text-color;
+            font-family: $ProximaNova;
+            margin: 0 0 5px;
+        }
+        p {
+            font-family: $CeraPROlight;
+            margin: 0 0 49px;
+        }
+    }
+    .software-platform-slider {
+        // padding: 25px 0 0;
+        opacity: 0;
+
+        &.slick-initialized{
+            opacity: 1;
+        }
+        .slick-slide  {
+            padding: 0 8px;
+            img {
+                opacity: 0.5;
+                width: 100%;
+            }
+            &:focus {
+                outline: none;
+            }
+            &.slick-active {
+                img {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .monkey-img  {
+        position: absolute;
+    bottom: 2px;
+    left: 400px;
+    }
+}
+// software-platform end
+
+// robo tabing start
+.robo-tab-main {
+    padding: 70px 0 0;
+    .robo-title {
+        p {
+            font-size: 20px;
+            line-height: 24px;
+            font-family: $CeraPROlight;
+            color: $gray;
+            margin: 0 0 30px;
+        }
+    }
+    .tab-activity {
+        margin: 0 70px 65px;
+        .nav-tabs {
+            border: none;
+            border-top: 1px solid #ecf0f4;
+            .nav-item {
+                width: 33.33%;
+                a {
+                    font-size: $font-size-base;
+                    line-height: 24px;
+                    color: $lightblue;
+                    font-family: $CeraPRO;
+                    
+                    &+ a {
+                       text-decoration: underline !important;
+                       opacity: 0.7;
+                    }
+                }
+                .nav-link  {
+                    padding: 20px 0px 0;
+                    border: none;
+                    font-size: $font-size-h4;
+                    line-height: 28px;
+                    background: none;
+                   font-family: $ProximaNova;
+                    color: #000000;
+                    position: relative;
+                    opacity: 0.25;
+                    span {
+                        font-size: $font-size-h4;
+                        line-height: 24px;
+                        font-family: $ProximaNova;
+                    }
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                    &.active  {
+                        opacity: 1;
+                        span {
+                            opacity: 1;
+                        }
+                        &::after {
+                            position: absolute;
+                            content: '';
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            border:  3px solid $lightblue;
+                            display: block;
+                            }
+                        }
+                        &.active + a {
+                            opacity: 1;
+                        } 
+                    }
+                }
+            }
+    }
+    .robo-tab-main .tab-activity .nav-tabs .nav-item .nav-link.active +a {
+        opacity: 1;
+    }
+    .tab-content {
+        background-image: url('../images/offer-bg.svg');
+        padding: 167px 0;
+        position: relative;
+        .soft-chart {
+            padding: 0 50px;
+        }
+        .list-tab {
+            span {
+                color: $white;
+                margin-bottom: 17px;
+                display: block;
+            }
+            h3 {
+                color: $white;
+                line-height: 34px;
+                padding: 0 0 40px;
+                font-family: $CeraPROlight;
+            }
+            .btn {
+                background: #732EDC;
+                box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+                @include border-radius(50px);
+            }
+        }
+
+        .block-right-img {
+            margin-left: -30px;
+        }
+    }
+}
+
+
+// robo tabing end
+
+// feature-block start
+.feature-block-main {
+    padding: 27px 0 0;
+    .feature-block {
+        padding: 0 0 60px;
+        &:nth-child(even) {
+            .row {
+                flex-direction: row-reverse;
+            }
+            .detail-img {
+               margin-left: -100px;
+            }
+        }
+       .img-detail {
+            p {
+                text-align-last: left;
+                margin: 10px 0 50px;
+            }
+        }
+    }
+}
+// feature-block end
+
+// monkey-work start
+.monkey-work-section {
+    background: linear-gradient(151.97deg, #18212E 30.85%, #132640 90.12%);
+    position: relative;
+    .mondy-work-detail {
+        padding: 130px 0 80px;
+        text-align: center;
+        span {
+            color: $blue;
+        }
+        h2 {
+           color: $white;
+           line-height: 34px;
+           font-family: $CeraPROlight;
+           margin: 20px 0 15px;
+        }
+        p {
+            color: $white;
+            margin: 16px 0 0;
+            line-height: 24px;
+            opacity: 0.7;
+        }
+    }
+    .monkey-work-top {
+        background-image: url('../images/square.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 150px;
+        background-position: center bottom;
+    }
+    // &::after {
+    //     position: absolute;
+    //     content: '';
+    //     top: 25px;
+    //     left: 0;
+    //     right: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background-repeat: no-repeat;
+    //     background-size: contain;
+    // }
+    .robot-devloper {
+        padding: 50px 0 0;
+        p {
+            color: $white;
+            font-size: $font-size-h5;
+            line-height: 34px;
+            font-family: $CeraPROlight;
+        }
+    }
+    .robo-content { 
+        text-align: center;
+        margin: -70px 0 0;
+        h2 {
+            color: $white;
+            display: inline-block;
+        }
+        h5 {
+            display: inline-block;
+            color: $white;
+            font-family: $ProximaNova;
+            padding: 0 0 0 7px;
+        }
+        span {
+            font-size: $font-size-h3;
+            line-height: 31px;
+            font-family: $ProximaNova;
+            padding: 0 0 0 7px;
+            display: inline-block;
+        }
+    }
+   .content-block {
+       padding: 50px 0 110px;
+       .technical-block {
+           background-color: $white;
+           @include border-radius(10px);
+           .robo-img {
+               position: relative;
+               img {
+                   width: 100%;
+               }
+           }
+           .img-stuats {
+            position: absolute;
+            top: 0;
+            z-index: 9999;
+            h6 {
+                font-size: $font-size-sm;
+                line-height: 15px;
+                font-family: $CeraPRObold;
+                color: $white;
+                background: rgba(21, 37, 59, 0.8);
+                @include border-radius(40px);
+                backdrop-filter: blur(6px);
+                padding: 8px 17px;
+                margin: 11px 0 0 11px;
+            }
+           }
+           .robo-detail {
+               padding: 15px 42px;
+               text-align: left;
+               h2 {
+                font-size: $font-size-h5;
+                line-height: 26px;
+                font-family: $CeraPROlight;
+                color: $text-color;
+                margin: 0 0 5px;
+               }
+               h6 {
+                   font-size: $font-size-sm;
+                   line-height: 12px;
+                   font-family: $CeraPROlight;
+                    color: $text-color;
+                    opacity: 0.5;
+                    margin: 8px 0 0;
+               }
+           }
+       }
+   }
+}
+
+// monkey-work end
+
+
+// robot-journey-section start
+.robot-journey-section {
+    background-image: url('../images/journey-bg.svg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 40px 0;
+    .devloper-journey {
+       span {
+           color: $white;
+       }
+       h2 {
+           color: $white;
+           font-size: $font-size-h2;
+           line-height: 50px;
+           font-family: $ProximaNova;
+           margin: 7px 0;
+       }
+       p {
+           color: $white;
+           font-family: $CeraPROlight;
+       }
+    }
+    .accout-detail {
+        padding: 40px 50px 30px;
+        background: rgba(2, 2, 2, 0.5);
+        backdrop-filter: blur(10px);
+        @include border-radius(10px);
+    }
+    .robocode-content {
+        h2 {
+            font-size: $font-size-h4;
+            line-height: 26px;
+            color: $white;
+            font-family: $ProximaNova;
+            margin: 0;
+        }
+    }
+    .accout-detail {
+        .journey-right {
+            p {
+                font-size: 14px;
+                line-height: 18px;
+                color: $white;
+                opacity: 0.7;
+                font-family: $ProximaNovaRegular;
+                margin: 19px 0 56px;
+            }
+            .get-btn {
+               margin-left: 0;
+               margin: -16px 0 0;
+                .btn-get {
+                    padding: 10px 26px 11px 21px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+// robot-journey-section end
+
+// content end
+
+
+
+
+// Footer Css
+@import "footer";
+
+
+
+// Responsive Css
+@import "responsive";

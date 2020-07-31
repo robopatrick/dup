@@ -1,0 +1,45 @@
+//## Gray and brand colors for use across Bootstrap.
+
+//** Background color for `<body>`.
+$body-bg: #f6f9fc !default;
+
+//** Global text color on `<body>`.
+$text-color: #002642 !default;
+
+//** Global textual link color.
+$link-color: #4B1997 !default;
+
+//** Link hover color set via `darken()` function.
+$link-hover-color: #4B1997 !default;
+
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  "GothamNarrowBook", Helvetica, Arial, sans-serif !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          16px !default; // 1.000em
+$line-height-base:         16px !default; // 1.000em
+
+$font-size-h1:             52px !default; // 130px
+$font-size-h2:             46px !default; // 64px
+$font-size-h3:             31px !default; // 53px
+$font-size-h4:             23px !default;  // 38px
+$font-size-h5:             21px !default;
+$font-size-sm:             12px !default;   
+
+//== Components
+//
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base:        40px !default;
+
+
+

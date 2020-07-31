@@ -1,0 +1,164 @@
+
+
+body{
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+	background-color: $body-bg;
+	color:$text-color;
+}
+
+a,
+input,
+button,
+textarea { outline: none !important; }
+
+a {
+	transition: all ease-in-out 300ms;
+	-webkit-transition: all ease-in-out 300ms;
+	-ms-transition: all ease-in-out 300ms;
+	-o-transition: all ease-in-out 300ms;
+	-moz-transition: all ease-in-out 300ms;
+}
+a {
+	text-decoration: none !important;
+}
+.pad-left {
+	padding-left:0;
+}
+
+.pad-right {
+	padding-right:0;
+}
+
+.pad-top {
+	padding-top:0;
+}
+
+.pad-bottom {
+	padding-bottom:0;
+}
+
+.padding {
+	padding:0;
+}
+.pad-30 {
+	padding: 0 0 27px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.txt-left {
+	text-align: left;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.txt-right {
+	text-align: right;
+}
+.red {
+	color: #FF5056;
+}
+.green {
+	color: #25D17C;
+}
+.purple {
+	color: #A844EB;
+}
+.hub {
+	text-align: left;
+}
+.code {
+	text-align: center;
+}
+.cloud {
+	text-align: right;
+}
+p {
+	font-family: $CeraPRO;
+	font-size: $font-size-base;
+	line-height: 24px;
+	color: $text-color;
+	opacity: 0.7;
+	margin: 0;
+}
+span {
+	font-size: $font-size-sm;
+	line-height: 15px;
+	font-family: $CeraPROblack;
+	letter-spacing: 2.4px;
+	color: $gray;
+}
+.btn {
+	border: none;
+	padding: 10px 17px 11px 18px;
+	font-size: 16px;
+	line-height: 19px;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	font-family: $CeraPRObold;
+	@include border-radius(40px);
+	color: $white;
+
+	background: linear-gradient(151.97deg, #FD7006 30.85%, #FF9243 90.12%);
+		
+	&:focus {
+		color: $white;
+		background: linear-gradient(151.97deg, #FD7006 30.85%, #FF9243 90.12%);
+	}
+
+	&:hover, &:active:focus {
+		color: $white;
+		background: linear-gradient(180deg, #8127E8 0%, #B135E3 100%);
+	}
+}
+
+.get-btn {
+	margin-left: 35px;
+	.btn-get {
+		color: $white;
+		font-family: $CeraPRObold;
+		font-size: $font-size-base;
+		line-height: $line-height-base;
+		border: 1.5px solid $white;
+		@include border-radius(50px);
+		padding: 15px 17px;
+		&:hover {
+			background: linear-gradient(151.97deg, #FD7006 30.85%, #FF9243 90.12%);
+			border-color: transparent;
+		}
+	}
+}
+
+.section-title h1,
+.section-title h2,
+.section-title h3,
+.section-title h4,
+.section-title h5,
+.section-title h6 {
+	font-family: $ProximaNova;
+	font-size: $font-size-h1;
+	line-height: 58px;
+	margin: 0;
+}
+.sub-title h1,
+.sub-title h2,
+.sub-title h3,
+.sub-title h4,
+.sub-title h5,
+.sub-title h6 {
+	font-family: $CeraPRO;
+	font-size: $font-size-h3;
+	line-height: 38px;
+	color: $gray;
+	margin: 0;
+}

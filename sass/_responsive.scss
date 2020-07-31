@@ -1,0 +1,281 @@
+
+/*///////////////////////////////////////////////////////////////////////// Responsive CSS Structure /////////////////////////////////////////////////////////////////////////*/
+
+
+/*---------- Small Mobile , IPhone Start ----------*/
+
+/*=== Screen Size = 240, 320, 360, 480, 568 ===*/ 
+
+@media (max-width: 575px) {
+    .software-logo .software-logo ul li {
+        display: inline-block;
+        width: 31.33%;
+        text-align: center;
+        padding: 0 0 20px;
+    }
+    .software-logo .software-logo ul {
+        display: block;
+    }
+    .robo-tab-main .tab-activity .nav-tabs .nav-item .nav-link span {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .robo-tab-main .tab-activity .nav-tabs .nav-item .nav-link {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .robo-tab-main .tab-activity .nav-tabs .nav-item a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+
+@media (min-width: 240px) and (max-width: 568px){
+    .software-platform .monkey-img{right: 10px; left: auto; bottom: 5px; }
+    .software-platform .monkey-img img { height: 70px;  }
+}
+
+@media (min-width: 569px) and (max-width: 767px){
+    .software-platform .monkey-img{ height: 110px; right: 10px; left: auto; }
+    .software-platform .monkey-img img { height: 110px; }
+
+}
+
+
+@media (max-width: 767px) {
+    .header { top: 15px; }
+
+    .navbar-toggler { padding: 0; width: 40px; height: 40px; position: relative; margin-top: 0; margin-right: 0;float: right;background: linear-gradient(151.97deg, #FD7006 30.85%, #FF9243 90.12%); border-radius: 0; }
+    .navbar-toggler .navbar-toggler-icon { display: block; width: 100%; padding: 5px;height:auto;}
+    .navbar-toggler .navbar-toggler-icon .toggle-bar { position: relative; display: block; height: 3px; width: 100%; background-color: #fff; margin: 0 0 5px; transition: 0.4s; -webkit-transition: 0.4s; -moz-transition: 0.4s; -ms-transition: 0.4s; -o-transition: 0.4s; border-radius: 5px; }
+    .navbar-toggler.open .navbar-toggler-icon .toggle-bar:first-child { top: 10px; transform: rotate(45deg); -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); }
+    .navbar-toggler.open .navbar-toggler-icon .toggle-bar:nth-child(2) { opacity: 0; }
+    .navbar-toggler.open .navbar-toggler-icon .toggle-bar:last-child { top: -6px; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); }
+    .navbar-toggler .navbar-toggler-icon .toggle-bar:last-child { margin: 0;}
+
+    .navbar-collapse {background: linear-gradient(151.97deg, #FD7006 30.85%, #FF9243 90.12%); position: absolute; top: 45px; left: 0px;right: 0px; width: 100%;}
+    .navbar-expand-lg .navbar-nav .nav-link {color: #fff; text-align: left; padding: 10px 20px;}
+    .header .navigation .navbar .navbar-nav .nav-item:hover {background-color: #fff; color: #A844EB;}
+    .get-btn {margin-left: 8px; padding: 20px 0;}
+    .get-btn .btn-get {padding: 8px 9px;}
+
+    .banner-main .background  {background: url('../images/final-bg.svg'); }
+    .banner-main {
+        position: relative;
+        background: url(../images/final-bg.svg);
+        /* height: 260px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+    }
+    .banner-main .background svg { display: none; }
+    .banner-main .banner-content { position: relative; }
+    .banner-main .banner-content .banner-detail {padding: 80px 0 0;}
+    .banner-main .banner-content .banner-detail h1 {font-size: 20px; line-height: 20px; margin: 0;}
+    .banner-main .banner-content .banner-detail p {margin-bottom: 25px;}
+    .banner-main .banner-content .banner-detail .work-demo {width: 280px; height: 40px;}
+    .banner-main .banner-content .banner-detail .work-demo .form-control {padding: 0 130px 0 33px; height: 40px;}
+    .banner-main .banner-content .banner-detail .work-demo .btn {padding: 12px 20px;font-size: 14px; line-height: 14px;}
+    .banner-main .inner-background {    bottom: auto; z-index: 999; position: relative;    margin: 20px 0 0;}
+    .inner-background img {width: 85%;}
+
+    .software-logo .brand-title { padding: 40px 0 0; }
+    .software-logo .software-logo {padding: 30px 0 0;}
+    .software-platform .software-title h2 {    font-size: 24px; line-height: 26px;}
+    .robo-tab-main .tab-activity { margin: 0 0 35px; }
+    .robo-tab-main .tab-content {padding: 40px 0;}
+
+    .software-platform { padding: 50px 0 0; }
+
+    .robo-tab-main .tab-content .soft-chart { padding: 0; }
+    .robo-tab-main .tab-content .block-right-img { margin-left: 0; margin: 20px 0 0; }
+    .robo-tab-main .tab-content .list-tab h3 {line-height: 24px; padding: 0 0 20px; font-size: 20px; }
+
+    .sub-title h1 br, .sub-title h2 br, .sub-title h3 br, .sub-title h4 br, .sub-title h5 br, .sub-title h6 br {
+        display: none;
+    }
+    .sub-title h1, .sub-title h2, .sub-title h3, .sub-title h4, .sub-title h5, .sub-title h6 {     font-size: 20px;
+        line-height: 26px !important; }
+    .feature-block-main .feature-block .img-detail p br { display: none; }
+    .feature-block-main .feature-block .img-detail p  { margin: 0 0 20px; }
+    .feature-block-main .feature-block:nth-child(even) .detail-img { margin-left: 0; } 
+    .feature-block-main .feature-block .detail-img { margin: 20px 0 0; } 
+    .feature-block-main .feature-block { padding: 0 0 30px; }
+
+    .monkey-work-section .mondy-work-detail { padding: 40px 0; }
+    .monkey-work-section .mondy-work-detail p br { display: none;}
+    .monkey-work-section .robot-devloper { padding: 10px 0 0; }
+    .monkey-work-section .monkey-work-top { padding-bottom: 90px; }
+    .monkey-work-section .robot-devloper p { font-size: 16px; line-height: 22px; }
+
+    .monkey-work-section .content-block .technical-block .robo-detail { padding: 15px 22px; }
+    .monkey-work-section .content-block .technical-block .robo-detail h2 { font-size: 18px; line-height: 20px; }
+    .monkey-work-section .content-block .technical-block { margin: 0 0 20px; }
+    .monkey-work-section .content-block { padding: 40px 0; }
+    .robot-journey-section .accout-detail .journey-right .get-btn {
+        margin-left: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .robot-journey-section .accout-detail { padding: 30px; }
+    .robot-journey-section .devloper-journey  { padding: 0 0 20px; }
+    .robot-journey-section .devloper-journey h2 { font-size: 26px;  line-height: 30px; }
+    .robot-journey-section .accout-detail .journey-right p { margin: 15px 0;}
+    .robot-journey-section .accout-detail .journey-right  { margin: 0 0 30px;}
+
+    .footer { padding: 30px 0; }
+    .footer .footer-top ul li a { font-size: 14px; line-height: 24px; }
+    .footer .footer-top ul li {  text-align: center; }
+    .footer .footer-top .f-title h4 { text-align: center; }
+    .f-block { padding: 0  0 30px;}
+    .footer .footer-top {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){   
+
+    .get-btn {
+        margin-left: 15px;
+    }
+    .header .navigation .navbar .navbar-nav .nav-item .nav-link {
+        padding: 8px;
+    }
+    .banner-main .banner-content .banner-detail {padding: 100px 0 0;}
+    .banner-main .banner-content .banner-detail p {margin-bottom: 30px;}
+    .banner-main .inner-background {bottom: -90px;}
+    .banner-main .banner-content .banner-detail h1 {font-size: 32px; line-height: 32px;}
+    .banner-main .banner-content .banner-detail .work-demo {width: 300px; height: 44px;}
+    .banner-main .banner-content .banner-detail .work-demo .form-control {padding: 0 110px 0 25px; height: 44px;}
+    .banner-main .banner-content .banner-detail .work-demo .btn {padding: 13px 16px;}
+    .inner-background img {width: 60%;}
+    .software-logo .brand-title {padding: 110px 0 0; }
+    
+    .robo-tab-main .tab-content {padding: 45px 0;}
+    .robo-tab-main .robo-title p {margin: 0 0 20px;}
+    .robo-tab-main .tab-content .list-tab h3 {    line-height: 22px; padding: 0 0 20px; font-size: 18px;}
+    .robo-tab-main .tab-activity {margin: 0 30px 35px;}
+    
+    .sub-title h1, .sub-title h2, .sub-title h3, .sub-title h4, .sub-title h5, .sub-title h6 {font-size: 22px; line-height: 26px;}
+    .section-title h1, .section-title h2, .section-title h3, .section-title h4, .section-title h5, .section-title h6 {font-size: 32px; line-height: 38px;}
+    p { font-size: 13px; line-height: 17px; }
+
+    .feature-block-main .feature-block .img-detail p {font-size: 14px; line-height: 20px; margin: 10px 0 30px;}
+
+    .monkey-work-section .mondy-work-detail {padding: 60px 0 40px;}
+    .monkey-work-section .mondy-work-detail h2 {line-height: 26px;}
+    .monkey-work-section .mondy-work-detail p { margin: 6px 0 0;}
+    .monkey-work-section .robo-content {padding: 25px 0 0;}
+    .monkey-work-section .content-block { padding: 30px 0 50px; }
+    .monkey-work-section .content-block .technical-block .robo-detail {padding: 13px 12px;}
+    .monkey-work-section .content-block .technical-block .robo-detail h2 {font-size: 15px; line-height: 17px;}
+
+    .robot-journey-section .devloper-journey h2 {font-size: 36px; line-height: 36px;}
+    .robot-journey-section .accout-detail {padding: 30px 20px 20px;}
+    .robot-journey-section .robocode-content h2 {font-size: 16px; line-height: 14px;}
+    .robot-journey-section .accout-detail .journey-right .get-btn .btn-get {padding: 10px 12px;}
+    .robot-journey-section .accout-detail .journey-right p {margin: 16px 0 23px;}
+    .get-btn .btn-get {font-size: 13px; line-height: 13px;}
+
+    .footer {padding: 35px 0;}
+    .footer .footer-top { padding: 0 0 40px; }
+    .software-platform .monkey-img { bottom: 4px; left: 143px;}
+    .software-platform .monkey-img img { height: 120px; }
+
+    .software-platform { padding: 50px 0 0; }
+    .software-platform .software-title h2 { font-size: 30px; line-height: 36px; }
+    .robo-tab-main .tab-content .block-right-img { margin-left: -30px; }
+    .feature-block-main .feature-block { padding: 0 0 30px; }
+    .feature-block-main .feature-block:nth-child(even) .detail-img { margin-left: 0; }
+    .robo-tab-main { padding: 50px 0 0; }
+    .monkey-work-section .monkey-work-top { padding-bottom: 100px; }
+
+    .robot-journey-section .accout-detail .journey-right .get-btn {
+        margin-left: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .inner-background  img { width: 70%;}
+    .banner-main .banner-content .banner-detail h1 {font-size: 40px; line-height: 40px;}
+    .banner-main .banner-content .banner-detail p { margin-bottom: 40px;}
+
+    .banner-main .inner-background { bottom: -130px; }
+    .section-title h1, .section-title h2, .section-title h3, .section-title h4, .section-title h5, .section-title h6 {font-size: 36px; line-height: 40px;}
+    .sub-title h1, .sub-title h2, .sub-title h3, .sub-title h4, .sub-title h5, .sub-title h6 {font-size: 24px; line-height: 26px; padding: 0;}
+    .monkey-work-section .robo-content {padding: 30px 0 0;}
+    .monkey-work-section .content-block { padding: 40px; }
+    .monkey-work-section .content-block .technical-block .robo-detail {padding: 15px;}
+    .monkey-work-section .content-block .technical-block .robo-detail h2 {font-size: 19px; line-height: 22px;}
+    .robo-tab-main .tab-content {padding: 50px 0;}
+
+    .feature-block-main .feature-block .img-detail p {margin: 0px 0 20px;}
+    .feature-block-main .feature-block { padding: 0 0 30px; }
+
+    .monkey-work-section .mondy-work-detail {padding: 70px 0 40px;}
+
+    .robot-journey-section .accout-detail {padding: 30px 25px 20px;}
+    .robot-journey-section .devloper-journey h2 {font-size: 26px; line-height: 30px;}
+    .software-platform .monkey-img { bottom: 3px; left: 183px;}
+    .software-platform .monkey-img img { height: 120px; }
+    .footer .footer-top {
+        padding: 0 0 50px;
+    }
+    .feature-block-main .feature-block:nth-child(even) .detail-img {
+        margin-left: 0;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1299px){
+    .monkey-work-section .robo-content { padding: 30px 0 0; text-align: center; }
+    .inner-background img {width: 70%;}
+    .robo-tab-main .tab-content {padding: 67px 0;}
+    .feature-block-main .feature-block { padding: 0 0 40px; }
+    .monkey-work-section .mondy-work-detail { padding: 50px 0 33px; }
+    .sub-title h1, .sub-title h2, .sub-title h3, .sub-title h4, .sub-title h5, .sub-title h6 {font-size: 28px;}
+    .software-platform .monkey-img { bottom: 3px; left: 224px;}
+    .software-platform .monkey-img img { height: 160px; }
+    .footer .footer-top { padding: 0 0 60px; }
+
+} 
+@media (min-width: 1300px) and (max-width: 1399px){
+    .monkey-work-section .robo-content { padding: 30px 0 0; text-align: center; }
+    .inner-background img {width: 70%;}
+    .software-platform .monkey-img { bottom: 3px; left: 274px;}
+    .software-platform .monkey-img img { height: 160px; }
+} 
+@media (min-width: 1400px) and (max-width: 1499px){
+    // .monkey-work-section .robo-content { padding: 30px 0 0; text-align: center; }
+    .software-platform .monkey-img { bottom: 3px; left: 304px;}
+    .software-platform .monkey-img img { height: 160px; }
+}
+@media (min-width: 1500px) and (max-width: 1599px){
+    .monkey-work-section .robo-content { padding: 100px 0 0; text-align: center; }
+    .software-platform .monkey-img { bottom: 1px; left: 285px;}
+}
+@media (min-width: 1600px) and (max-width: 1699px){
+    .monkey-work-section .robo-content { padding: 150px 0 0; text-align: center; }
+    .software-platform .monkey-img { bottom: 1px; left: 293px;}
+}
+@media (min-width: 1700px) and (max-width: 1799px){
+    .monkey-work-section .robo-content { padding: 220px 0 0; text-align: center; }
+    .software-platform .monkey-img { bottom: 1px; }
+}
+
+@media (min-width: 1800px) and (max-width: 1899px){
+    .software-platform .monkey-img { bottom: 2px; left: 398px;}
+}
+@media (min-width: 1140px) {
+    .container {
+        max-width: 1110px;
+    }
+}  
+/*---------- Large Desktop , Large Screen End ----------*/
